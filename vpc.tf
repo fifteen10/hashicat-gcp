@@ -3,7 +3,7 @@ module "network" {
   version = "2.5.0"
   # insert required variables here
   project_id = var.project_id
-  
+  network_name = "gaurav-network"
   subnets = [
   {
     subnet_name   = "gaurav-subnet"
